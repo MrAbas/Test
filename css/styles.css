@@ -47,7 +47,7 @@ ul li {
 }
 
 .back {
-  background-image: url("../../../git-course/HTML_and_CSS_образец/img/Arrow.svg");
+  background-image: url("../img/Arrow.svg");
   background-repeat: no-repeat;
   padding-left: 52px;
   background-position: left center;
@@ -86,19 +86,19 @@ ul li {
 }
 
 .module-first {
-  background-image: url("../../../git-course/HTML_and_CSS_образец/img/photo1.png");
+  background-image: url("../img/photo1.png");
 }
 
 .module-second {
-  background-image: url("../../../git-course/HTML_and_CSS_образец/img/photo2.png");
+  background-image: url("../img/photo2.png");
 }
 
 .module-third {
-  background-image: url("../../../git-course/HTML_and_CSS_образец/img/photo3.png");
+  background-image: url("../img/photo3.png");
 }
 
 .module-fourth {
-  background-image: url("../../../git-course/HTML_and_CSS_образец/img/photo4.png");
+  background-image: url("../img/photo4.png");
 }
 
 .module-item-title {
