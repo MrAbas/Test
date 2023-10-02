@@ -62,12 +62,13 @@ ul li {
 }
 
 .module-container {
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 50px;
 }
 
 .module-item {
   position: relative;
-  display: inline-block;
   width: 572px;
   height: 505px;
   background-repeat: no-repeat;
