@@ -140,3 +140,21 @@ ul li {
   padding: 25px 76px;
   color: #3f2aff;
 }
+
+@media (max-width: 680px) {
+  .module-item {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .module-item {
+    width: 325px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .module-item {
+    width: 380px;
+  }
+}
