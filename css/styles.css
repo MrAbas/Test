@@ -62,14 +62,17 @@ ul li {
 }
 
 .module-container {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: block;
   margin-bottom: 50px;
 }
 
 .module-item {
   position: relative;
-  width: 48%;
+  display: inline-block;
+  width: 572px;
+  max-width: 48%; /* 572px 48% */
   height: 505px;
   background-repeat: no-repeat;
   vertical-align: middle;
@@ -141,20 +144,20 @@ ul li {
   color: #3f2aff;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 1220px) {
   .module-item {
-    width: 200px;
+    width: 460px;
   }
 }
 
 @media (max-width: 1120px) {
   .module-item {
-    width: 325px;
+    width: 400px;
   }
 }
 
-@media (max-width: 1220px) {
+@media (max-width: 680px) {
   .module-item {
-    width: 380px;
+    width: 300px;
   }
 }
