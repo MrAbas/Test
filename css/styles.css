@@ -54,6 +54,15 @@ ul li {
   color: #3f2aff;
 }
 
+.back:hover {
+  text-decoration: underline;
+}
+
+.back:focus {
+  text-decoration: underline;
+  color: lime;
+}
+
 .title {
   color: #3f2aff;
   font-size: 60px;
@@ -143,6 +152,11 @@ ul li {
   background-color: transparent;
   padding: 25px 76px;
   color: #3f2aff;
+}
+
+.footer button:active {
+  border: 2px solid red;
+  color: red;
 }
 
 @media (max-width: 1220px) {
