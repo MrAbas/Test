@@ -72,7 +72,8 @@ ul li {
   position: relative;
   display: inline-block;
   width: 50%;
-  max-width: 48%; /* 572px 48% */
+  min-width: 297.5px;
+  max-width: 572px; /* 572px 48% */
   height: 505px;
   background-repeat: no-repeat;
   vertical-align: middle;
@@ -146,13 +147,13 @@ ul li {
 
 @media (max-width: 1220px) {
   .module-item {
-    width: 100%;
+    width: 45%;
   }
 }
 
 @media (max-width: 1120px) {
   .module-item {
-    width: 100%;
+    width: 45%;
   }
 }
 
