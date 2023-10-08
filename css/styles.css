@@ -71,9 +71,8 @@ ul li {
 }
 
 .module-container {
-  /* display: flex;
-  flex-wrap: wrap; */
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 50px;
 }
 
@@ -125,6 +124,15 @@ ul li {
   margin-left: 25px;
 }
 
+.wrapper:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .module-item-text {
   color: #333;
   font-size: 20px;
@@ -146,7 +154,7 @@ ul li {
   text-align: center;
 }
 
-.footer button {
+.styles_button {
   font-size: 18px;
   border: 2px solid #3f2aff;
   background-color: transparent;
@@ -154,9 +162,17 @@ ul li {
   color: #3f2aff;
 }
 
-.footer button:active {
+.styles_button:active {
   border: 2px solid red;
   color: red;
+}
+
+.styles_button2 {
+  font-size: 18px;
+  border: 2px solid #01d119;
+  background-color: transparent;
+  padding: 25px 76px;
+  color: #01d119;
 }
 
 @media (max-width: 1220px) {
